@@ -31,7 +31,7 @@ RUN touch /home/darkarmy6/.hushlogin
 # Level 0
 RUN echo 'echo "Welcome to Spaidy lab"' >> /home/darkarmy0/.bashrc \
     && echo 'echo "dark_flag{7c945bc1393bd504aad1}"' >> /home/darkarmy0/.bashrc \
-    && echo 'exit' >> /home/darkarmy0/.bashrc \
+    && echo 'sleep 180' >> /home/darkarmy0/.bashrc \
     && chown -R darkarmy0:darkarmy0 /home/darkarmy0
 
 # Level 1
